@@ -6,4 +6,4 @@ services:
     startCommand: gunicorn calcproject.wsgi:application
     envVars:
       - key: DJANGO_SETTINGS_MODULE
-        value: calcproject.settings
+        value: dictproject.settings
